@@ -7,13 +7,17 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { TopoComponent } from './topo/topo.component';
 import { RodapeComponent } from './rodape/rodape.component';
 import { PrincipalComponent } from './principal/principal.component';
+import { ContatoComponent } from './contato/contato.component';
+import { ProjetosComponent } from './projetos/projetos.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     TopoComponent,
     RodapeComponent,
-    PrincipalComponent
+    PrincipalComponent,
+    ContatoComponent,
+    ProjetosComponent
   ],
   imports: [
     BrowserModule,
